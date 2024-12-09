@@ -43,6 +43,7 @@ import mentor11 from './m11.jpeg'
 import mentor12 from './m12.jpeg'
 import mentor13 from './m13.jpg'
 import mentor14 from './m14.jpg'
+import banner from './banner.jpeg'
 
 
 
@@ -68,6 +69,7 @@ export const assets = {
 //     upload_icon,
 //     stripe_logo,
 //     razorpay_logo
+    banner
 }
 
 export const expertiseData = [

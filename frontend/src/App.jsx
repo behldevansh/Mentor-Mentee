@@ -9,6 +9,7 @@ import MyProfile from './pages/MyProfile'
 import MyMatches from './pages/MyMatches'
 import Match from './pages/Match'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Route path="/my-matches" element={<MyMatches/>}/>
       <Route path="/match/:mentorId" element={<Match/>}/>
     </Routes>
+    <Footer/>
     </div>
   )
 }
