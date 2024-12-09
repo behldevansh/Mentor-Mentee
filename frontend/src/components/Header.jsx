@@ -22,7 +22,6 @@ const Header = () => {
         <div>
           <LampDemo />
           <div className="py-2">
-            {/* Reduced padding with Tailwind (e.g., 2 units = 0.5rem) */}
             <WorldMap dots={dots} lineColor="#FF5733" theme="dark" />
           </div>
         </div>

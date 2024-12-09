@@ -81,7 +81,7 @@ export const LampContainer = ({ children, className = "" }) => {
       <div className="relative z-50 flex -translate-y-60 flex-col items-center px-5">
         {children}
         <a
-          href="/matches"
+          href="#expertise"
           className="mt-4 inline-flex items-center justify-center px-6 py-3 text-lg font-medium text-white bg-cyan-500 rounded-lg hover:bg-cyan-600 focus:outline-none focus:ring focus:ring-cyan-300 transition">
           Find Mentor
         </a>
